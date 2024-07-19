@@ -1,0 +1,1031 @@
+@charset "UTF-8";
+html {
+	font-size: 14px;
+}
+body {
+	font-size: 16px;
+	line-height: 30px;
+	-webkit-text-size-adjust: none
+}
+
+.back {
+	width: 94%;
+	margin: 0 auto;
+}
+header {
+	height: auto;
+}
+header.page-header-nav .mod .banner .inner a {
+	width: 100% !important;
+}
+header.page-header-nav .mod .banner .inner .ivoting-logo {
+	margin: 0 auto !important;
+}
+.mod_search input[type="text"],
+.mod_search input[type="submit"] {
+	font-size: 14px;
+}
+/* ########## home modules ########## */
+.homepage .contentarea {
+	padding: 0;
+}
+.homepage #main {
+	padding: 0;
+}
+.home_top_btns {
+	width: 94%;
+	max-width: 325px;
+}
+.home_top_btn {
+	width: 140px;
+	height: 37px;
+	line-height: 37px;
+	margin: auto auto 16px;
+}
+/*首頁文字說明*/
+.ivoting_intro {
+	font-size: 12px;
+	padding: 0.5rem 1.5rem 0.5rem 60px;
+	width: 94%;
+	margin: 20px auto 0;
+}
+.ivoting_intro::before {
+	left: 5px;
+}
+/*首頁文字說明END*/
+/*首頁選單_我要XX*/
+.home_menu {
+	/* margin: 55px 0 0; */
+}
+
+
+@media screen and (max-width: 600px) {
+	.home_menu_item {
+		width: calc((100% - 40px) / 2);
+	}
+	.home_menu_item {
+		height: 245px;
+	}
+	.home_menu_item:nth-child(odd) {
+		margin: 0 10px 2rem;
+	}
+	.home_menu_item_a {
+		font-size: 1.25rem;
+	}
+	.home_menu_item_num {
+		top: 110px;
+		right: 15px;
+	}
+	.home_menu_item_text {
+		top: 175px;
+	}
+}
+@media screen and (max-width: 425px) {
+	.home_menu_item {
+		width: calc((100% - 10px) / 2);
+	}
+	.home_menu_item:nth-child(odd),
+	.home_menu_item:nth-child(even) {
+		margin: 0 0 2rem;
+	}
+	.home_menu_item {
+		height: 215px;
+		padding: 1.5rem 0 0;
+	}
+	.home_menu_item_a {
+		width: 115px;
+		height: 115px;
+		padding-top: 0.7rem;
+	}
+	.home_menu_item_a::after  {
+		top: 125px;
+		left: calc(50% - 10px);
+		border-top: 10px solid #4f77d0;
+		border-right: 10px solid transparent;
+		border-bottom: 10px solid transparent;
+		border-left: 10px solid transparent;
+	}
+	.home_menu_item_a:hover::after {
+		border-top: 10px solid #FFFFFF;
+	}
+	.home_menu_item_num {
+		top: 85px;
+		right: 5px;
+	}
+	.home_menu_item_text {
+		width: 170px;
+		top: 145px;
+		left: calc(50% - ( 175px / 2 ));
+	}
+}
+
+
+
+/*首頁選單_我要XX END*/
+/* voting list */
+.mod_voting_list .month {
+	padding: 0 30px;
+}
+.mod_voting_list .month > div {
+	width: calc(100% / 4);
+}
+.mod_voting_list .vote_list .data {
+	width: 100%;
+}
+/* tmpl */
+.contentarea {
+    width: 94%;
+}
+/*tmpl mod_page_title*/
+.marquee {
+	box-shadow: none;
+	right: 50%;
+}
+.marquee span {
+	width: 40%;
+	font-size: 4vw;
+}
+/*tmpl mod_page_title END*/
+#content {
+	padding: 5px;
+}
+/* ########## breadcrumb ########## */
+.breadcrumb {
+	padding: 0;
+}
+.breadcrumb li {
+	font-size: 3vw;
+	line-height: 3;
+}
+/* ########## blog ########## */
+.blog .item .item-image {
+	float: none;
+}
+.blog .item .item-image img {
+	width: 100%;
+}
+/* ########## content ########## */
+div.article-info {
+	text-align: left;
+}
+div.page-info {
+	padding-right: 2.5rem;
+}
+/* ########## com_surveyforce ########## */
+.menu-item {
+	padding: 5px 1% 0;
+}
+.menu-list a {
+	padding: 5px;
+	line-height: 20px;
+	min-height: 85px;
+}
+.menu-list a span {
+	display: block;
+}
+.menu-list a .image img {
+	width: 28px;
+	margin: 0 auto;
+}
+.menu-list a .title {
+	font-size: 15px;
+	font-weight: bold;
+}
+.menu-list a .num {
+	font-size: 12px;
+}
+.category-content {
+	min-height: 150px;
+}
+.category-content .nodata {
+	font-size: 24px;
+	line-height: 150px;
+}
+/*  -- issues --  */
+.issue {
+	float: none;
+	width: 100%;
+	margin: 1% 0;
+}
+/*  -- survey --  */
+.survey.blog {
+	display: block;
+}
+.survey.blog > div {
+	display: block;
+	padding: 10px 0;
+	width: auto;
+}
+.survey .survey_banner img {
+	width: 100%;
+}
+.survey .title {
+	font-size: 28px;
+	line-height: 45px;
+}
+.survey .desc,
+.survey .other_desc {
+	font-size: 16px;
+	line-height: 30px;
+}
+#siimage {
+	float: none;
+}
+.survey_verify input[type="button"].media-button,
+.survey_verify input[type="button"].safari-button {
+	display: block;
+	margin: 0;
+	padding: 0 10px;
+	font-size: 20px;
+	line-height: 40px;
+}
+/*20160112 調整*/
+.survey_verify .btns {
+	padding: 20px 0;
+	width: 240px;
+	margin: 0 auto;
+}
+.survey_verify .btns a.submit,
+.survey_verify .btns a.btn {
+	display: block;
+	margin-bottom: 10px;
+}
+/*20160112 調整結束*/
+/* -- survey_statement -- */
+.agree_statement {
+	font-size: 18px;
+	line-height: 30px;
+}
+.agree_statement input[type="checkbox"] {
+	width: 18px;
+	height: 18px;
+}
+.statement_area {
+	font-size: 14px;
+	line-height: 25px;
+}
+/*20160112 調整*/
+.survey_statement .btns {
+	padding: 20px 0;
+	width: 240px;
+	margin: 0 auto;
+}
+.survey_statement .btns a.submit,
+.survey_statement .btns a.btn {
+	display: block;
+	margin-bottom: 10px;
+}
+/*20160112 調整結束*/
+/* -- survey_question -- */
+.survey_question .question {
+	display: block;
+}
+.survey_question .welcome,
+.survey_question .header {
+	font-size: 22px;
+	line-height: 30px;
+}
+.survey_question .header {
+	font-size: 24px;
+	text-align: left;
+	word-wrap: break-word;
+}
+.survey_question .question > div {
+	width: 100%;
+}
+
+/*imagecat*/
+.cat_tabs {
+	margin: 1em 0;
+}
+.survey_question .cat_question .option {
+	width: 270px;
+}
+.survey_question .info .stamp.fl-l,
+.survey_question .info .intro.fl-l {
+	float: left;
+}
+.survey_question .info .stamp.fl-l {
+	width: 25px;
+	height: 61px;
+	margin: 0 3px;
+	background-size: contain;
+	border-bottom: 0;
+}
+.cat_question .info .intro {
+	width: calc( 100% - 35px);
+	height: 61px;
+	padding: 0;
+	text-align: left;
+	overflow: hidden;
+}
+.survey_question .info .intro > a {
+	margin-bottom: 0;
+	display: inline;
+}
+.cat_question .info .intro > .cat_img img {
+	width: 68px;
+}
+.cat_question .info .intro > .cat_zoom {
+	bottom: 0;
+	left: 72px;
+}
+/* -- survey_finish -- */
+.survey_finish span.warning {
+	display: block;
+}
+.survey_finish .item-list input[type="text"] {
+	width: 100%;
+	margin: 0;
+}
+.survey_finish .finish .short_link {
+	font-size: 16px;
+	line-height: 30px;
+}
+.warning {
+	font-size: 14px;
+}
+.survey_finish .btns a.submit,
+.survey_finish .btns input[type="submit"],
+.survey_finish .btns a.btn {
+	width: 170px;
+	padding: 0;
+}
+/* -- survey_result -- */
+.survey_result .quest_title,
+.survey_result .ftitle{
+	font-size: 16px;
+	line-height: 30px;
+}
+.votetable th, .votetable td{
+	font-size: 16px;
+}
+.votetable th {
+	padding: 0.5rem 0.3rem;
+}
+.votetable .circle {
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+}
+.survey_result .result_desc {
+	width: 90%;
+}
+/* ########## formtable ########## */
+table.formtable *:not(script) {
+	font-size: 16px;
+	line-height: 30px;
+	display: block;
+}
+table.formtable th {
+	width: 100%;
+	text-align: left;
+}
+table.formtable.verify th {
+	text-align: right;
+	width: 100%;
+}
+table.formtable td .button  {
+	margin: auto;
+}
+table.formtable.verify_info th,
+table.formtable.verify_info td,
+table.formtable.verification_code th,
+table.formtable.verification_code td,
+table.formtable.entity_verify th,
+table.formtable.entity_verify td,
+table.formtable.entity_login th,
+table.formtable.entity_login td {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+table.formtable.entity_verify td,
+table.formtable.entity_login td {
+	margin-bottom: 1em;
+}
+table.formtable.entity_verify td > input,
+table.formtable.entity_login td > input {
+	width: 100% !important;
+	box-sizing: border-box;
+}
+
+table.formtable div#captcha_field img {
+	width: 100%;
+}
+table.formtable div.sample_image {
+	width: 100% !important;
+}
+table.formtable th span {
+	display: none;
+}
+table.formtable th label {
+	/*display: block;*/
+}
+table.formtable th span + label {
+	font-weight: bold;
+}
+table.formtable input[type="text"] {
+	min-width: 150px;
+	width: 80%;
+}
+.survey_verify .formtable .list {
+	border-top: 1px solid #ccc;
+}
+.survey_verify .formtable .list:first-child {
+	border-top: 0;
+}
+.survey_verify .formtable select {
+	margin: 0 5px 5px;
+}
+/* ########## return ########## */
+.return {
+	text-align: center;
+}
+/* ########## footer ########## */
+footer {
+	padding: 20px 30px;
+}
+footer .back {
+	width: 100%;
+	margin: 0;
+}
+.foot_content {
+	background-position: center top;
+}
+.foot_content > div {
+	display: block;
+}
+.foot_main {
+	margin-bottom: 1rem;
+}
+.related-links, .ssl {
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+.related-links img {
+	margin: auto;
+}
+.ssl > img, .handicap-free {
+	display: none;
+}
+/* ########## scroll ########## */
+.scrollup,
+.scrollbottom {
+	width: 40px;
+	height: 80px;
+	font-size: 16px;
+}
+.scrollup {
+	top: 165px;
+}
+.scrollbottom {
+	top: 245px;
+}
+/* ########## others ########## */
+.btns a.submit,
+.btns input[type="submit"],
+.btns a.btn {
+	font-size: 20px;
+	line-height: 40px;
+}
+.email {
+	width: 100%;
+	text-align: left;
+}
+.input_text[type="text"] {
+	margin: 5px 0 0 0;
+	width: 97%;
+}
+textarea, .survey_question textarea.other_field {
+	width: 95%;
+	margin: 0 2%;
+}
+#social_tools a.standard {
+	display: none;
+}
+.about_ivoting,
+.about_ivoting > div,
+.about_ivoting > figure {
+	display: block;
+	padding: 10px 0;
+	margin: 0;
+}
+.item-page ol, .item-page ul {
+	margin-left: 0;
+}
+.about_ivoting > div:first-child {
+	width: auto;
+}
+.download {
+	width: 96%;
+	margin: auto;
+}
+/* ######## image caption 上稿用，內容同陽管 ############*/
+.caption_wrapper {
+	float: none;
+	margin: 0 auto;
+	width: 97% !important;
+	padding: 1%;
+}
+.caption_wrapper_td_small {
+	width: 48%;
+	margin: 1%;
+}
+.caption_wrapper_td_small:nth-child(2n+1) {
+	clear: both;
+}
+.caption_wrapper_td_medium {
+	width: 48%;
+	margin: 1%;
+}
+.caption_wrapper_td_medium:nth-child(2n+1) {
+	clear: both;
+}
+.caption_wrapper_td_large {
+	width: 98%;
+	margin: 1%;
+	clear: both;
+}
+.survey_hits {
+	text-align: left;
+}
+.verifylevel_intro {
+	width: 64vw;
+	max-width: 324px;
+}
+.verifylevel_verify {
+	width: 100%;
+}
+
+.css_th, .css_td {
+	float: left;
+	font-size: 0.75em;
+}
+
+.css_th {
+	width: 40%;
+}
+.css_td {
+	width: 45%;
+}
+#survey_search {
+	width: 100%;
+}
+
+/*投票歷史區*/
+.css_td .radio {
+	display: block;
+	margin: 0;
+}
+
+/*練習區與正式區按鈕切換*/
+.header-mainmenu > .custom_switch {
+	float: none;
+	display: block;
+	margin: 0 auto 10px;
+	width: 129px;
+}
+.custom_switch a {
+	padding-right: 5px;
+	background-position: -6px 0;
+}
+.custom_switch .switchbtn_02 {
+	padding-right: 7px;
+}
+.votingflow {
+	background-size: 200%;
+}
+.flowbtn {
+	display: block;
+	margin: 50px auto 0;
+	width: 226px;
+	font-size: 24px;
+}
+body.informal {
+	background-size: contain;
+}
+body.informal .back-home::after {
+	display: block;
+	line-height: 1.2;
+	text-align: center;
+}
+body.informal .header-navs {
+	display: none;
+}
+@media screen and (max-width: 375px) {
+	.votingflow {
+		padding-bottom: 250px;
+	}
+}
+.fancybox-toolbar {
+	display: none;
+}
+
+/* com_surveyforce/question */
+.analyze > .title, .select_option {
+	display: block;
+	width: auto;
+	text-align: left;
+}
+.analyze > .title {
+	font-size: 24px;
+}
+.select_option select {
+	width: 80%;
+}
+
+.rwd-block {
+	display: block;
+}
+.label_cell {
+	text-align: left;
+}
+.option_cell {
+	padding-bottom: 1em;
+}
+.rwd-block select {
+	width: 90%;
+}
+
+@media screen and (max-width: 375px) {
+	.ordertype {
+		font-size: 0.9rem;
+	}
+}
+
+/*臺北市政府網路投票作業流程圖*/
+/*#flowchart:checked ~ .flowchart {
+	 height: 1550px;
+	height: auto;
+}*/
+
+/*非公開投票*/
+.un_public_layout .list_desc {
+	display: block;
+	width: 100%;
+	margin-bottom: 0.5rem;
+}
+.layout1 .survey .survey_banner::before {
+	background: none;
+}
+.layout1 .verifylevel_intro {
+	display: block;
+	width: 100%;
+}
+.layout2 .survey .survey_banner {
+	padding-bottom: 15vw;
+}
+.layout2 .survey .survey_banner::before {
+	width: 100%;
+	height: 21vw;
+	background-size: cover;
+}
+
+/*RWD table*/
+.rwd-table {
+	width: 98%;
+}
+.rwd-table thead th {
+	display: none;
+}
+
+.rwd-table tbody th,
+.rwd-table td {
+	display: block;
+	border: 0 !important;
+	text-align: left !important;
+}
+.rwd-table tbody th {
+	font-weight: bold;
+	background-color: #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.rwd-table th,
+.rwd-table td {
+	padding: 0 0.8em !important;
+}
+.rwd-table td .option_label {
+	width: auto;
+}
+.rwd-table td .option_label::after {
+	content: attr(data-th);
+	text-align: left;
+	width: calc(100% - 1.2em);
+	display: inline-block;
+	vertical-align: top;
+}
+/*驗證資料下拉選單*/
+.custom-combobox {
+	width: 84%;
+	min-width: 150px;
+}
+
+
+/*2018 資訊內頁版面更新*/
+	/*上方選單*/
+#flows .flow {
+	width: 9vw;
+	height: 9vw;
+	line-height: 1.65;
+	font-size: 5.5vw;
+}
+#flows > li+li::before {
+	width: 4vw;
+	height: 4vw;
+	line-height: 2.5vw;
+	top: calc( 50% - 1.75vw);
+	right: -2vw;
+}
+#flows > li + li {
+	margin-left: -5px;
+}
+#flows > li+li::before {
+	width: 20vw;
+	height: 9vw;
+	right: 2.5vw;
+	top: calc( 50% - 5vw);
+}
+.processing {
+	position: relative;
+}
+.processing + .flow-text {
+	position: absolute;
+	font-size: 1.125rem;
+}
+#flows > li:first-child .processing + .flow-text {
+	left: -2rem;
+}
+#flows > li:last-child .processing + .flow-text {
+	width: 90px;
+	left: -70px;
+}
+#flows.vote_step > li:last-child .processing + .flow-text {
+	width: 8rem;
+	left: calc(50% - 4.1rem);
+}
+.completed + .flow-text,
+.uncompleted + .flow-text {
+	display: none;
+}
+	/*下方區塊*/
+.section-block h3 .flow {
+	width: 2.31rem;
+	height: 2.31rem;
+	line-height: 1.4;
+	font-size: 1.69rem;
+	border-width: 0.2rem;
+}
+.section-block h3 .flow::after {
+	width: 1rem;
+	height: 1rem;
+	line-height: 0.9rem;
+	top: calc( 50% - 0.5rem);
+	right: -0.6rem;
+}
+
+/*主圖*/
+.main-figure {
+	border-radius: 6vw;
+}
+.main-img-outer {
+	border-radius: 5vw;
+}
+.main-finalized {
+	width: 23.75vw;
+	height: 20.94vw;
+	top: -1.5vw;
+	left: -1.4vw;
+}
+/*簡介*/
+.layout-article .intro .subject,
+.view-article .intro .subject,
+.view-intro .intro .subject,
+.view-inquire .inquire .subject {
+	font-size: 1.5rem;
+	width: 90%;
+	padding-left: 1rem;
+	border-radius: 0;
+}
+	/*強迫簡介文字呈現*/
+.layout-article .intro div *,
+.view-intro .intro div * {
+	padding: 0 !important;
+	margin: 0 !important;
+	float: none !important;
+}
+.layout-article .intro > div,
+.view-article .intro > div,
+.view-intro .intro > div {
+	padding: 0 1rem;
+}
+.layout-article .intro div figure,
+.view-intro .intro div figure {
+	margin: auto !important;
+}
+.layout-article .intro div img,
+.view-intro .intro div img {
+	max-width: 100% !important;
+}
+/*六階段區塊*/
+	/*共用設定*/
+.main-section {
+	min-height: auto;
+}
+.section-block {
+	width: 99%;
+	margin-left: 0;
+	margin-bottom: 0.5rem;
+	padding: 0;
+	border: 1px solid #4f77d0;
+	overflow: hidden;
+}
+.section-block.processing-block {
+	border: 1px solid #4f77d0;
+	background-color: #4f77d0;
+}
+.section-block h3 {
+	position: static;
+	font-size: 1.4rem;
+	padding: 0.5rem 0 0 1rem;
+	border-bottom: 1px solid #4f77d0;
+	border-radius: 0;
+}
+.processing:hover h3,
+.processing:focus h3,
+.processing:focus h3,
+.section-block .processing  h3 {
+	background: #3b66c5 !important;
+	color: #FFFFFF;
+}
+.section-block .processing .flow {
+	border-color: #e9f0fe;
+	color: #4f77d0;
+}
+.section-block .desc {
+	width: 100%;
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+}
+.completed-block .desc,
+.processing-block .desc {
+	background: transparent;
+}
+.completed-block.open {
+	background: rgba(255,255,255,1);
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 65%, rgba(233,240,254,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(65%, rgba(255,255,255,1)), color-stop(100%, rgba(233,240,254,1)));
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 65%, rgba(233,240,254,1) 100%);
+	background: -o-linear-gradient(top, rgba(255,255,255,1) 65%, rgba(233,240,254,1) 100%);
+	background: -ms-linear-gradient(top, rgba(255,255,255,1) 65%, rgba(233,240,254,1) 100%);
+	background: linear-gradient(to bottom, rgba(255,255,255,1) 65%, rgba(233,240,254,1) 100%);
+}
+.section-block .processing .desc {
+	background-color: #4f77d0;
+	color: #FFFFFF;
+}
+.section-block .processing .heading {
+	background-color: #FFFFFF;
+	color: #4f77d0;
+}
+.section-block .detail {
+	padding: 0 1rem;
+	border-radius: 0;
+}
+.completed-block .detail {
+	border-bottom: 0;
+}
+.back-to-top {
+	padding-right: 20px;
+}
+
+/*最新消息列表頁 (表格RWD)*/
+	/*篩選表單*/
+.search_wrapper {
+	text-align: left;
+}
+.button#news_button {
+	min-width: 32px;
+	padding: 0 1rem;
+}
+	/*篩選表單 END*/
+.thead {
+	display: none;
+}
+.tr {
+	display: block;
+	border-top: 2px solid #E6F1FC;
+	border-bottom: 2px solid #E6F1FC;
+	margin-bottom: 8px;
+	padding: 0;
+}
+
+.td:nth-child(2n) {
+	background-color: #FFFFFF;
+}
+.td:nth-child(2n+1) {
+	background-color: #E6F1FC;
+}
+.td {
+	display: table;
+	width: 100%;
+	min-height: 45px;
+	overflow: hidden;
+	padding: 0;
+	margin: 2px 0;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.td::before {
+	content: attr(data-th) "";
+	display: table-cell;
+	width: 4.7rem;
+	padding: 0 10px;
+	text-align: right;
+	vertical-align: middle;
+	background-color: #DBDBDB;
+	color: #666666;
+}
+.td a, .td span {
+	width: calc(100% - 5rem);
+	text-align: left;
+	vertical-align: middle;
+	display: table-cell;
+	padding: 0 7px;
+}
+.tr:hover, .tr:focus, .tr:active {
+	border-top: 2px solid #9FC3F7;
+	border-bottom: 2px solid #9FC3F7;
+}
+.tr:hover .td, .tr:focus .td, .tr:active .td,
+.tr:hover .td a, .tr:focus .td a, .tr:active .td a {
+	background-color: #5B8EE8;
+	color: #FFFFFF;
+}
+.tr:hover .td::before, .tr:focus .td::before, .tr:active .td::before {
+	background-color: #BBDAFF;
+	color: #2951A6;
+}
+/*最新消息列表頁  (表格RWD) END*/
+/*我要XX列表頁*/
+.list-item {
+	padding: 0 0 20px 0;
+}
+.status, .note {
+	text-align: center;
+	padding: 15px 0;
+}
+.status {
+	border-right: 1px solid #c7d8ff;
+}
+.countdown {
+	display: block;
+}
+.countdown-text {
+	display: block;
+}
+.countdown .countdown-time {
+	font-size: 24px;
+}
+.topic-of-discussion {
+	border-top: 1px solid #c7d8ff;
+	padding: 15px 15px 0 15px;
+}
+/*我要XX列表頁 END*/
+/*投票流程說明*/
+.view-article .votingflow .flowbtn,
+.com_knowus .votingflow .flowbtn {
+	margin: 80px 0;
+	padding: 0.3rem 0;
+}
+/*投票流程說明END*/
+.resolution {
+	display: block;
+}
+
+/* 認識我們單元頁 */
+.column {
+	width: 100%;
+}
+/* 認識我們內頁 */
+.embed_container {
+	width: calc(100% - 4rem);
+	margin: 2rem auto 1rem;
+}
+
+/* 投票記錄頁 */
+.inquire .desc li:first-of-type .detail {
+	border-top: 0;
+}
+.inquire .desc .detail {
+	border-bottom: 0;
+}
+.inquire .desc li:not(.topic):not(.options) .detail {
+	padding: 0 20px 0.598em;
+}
+.inquire .options .detail li:first-of-type {
+	border-top: 1px solid #4F77D0;
+}

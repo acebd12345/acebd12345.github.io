@@ -1,0 +1,337 @@
+@charset "UTF-8";
+body {
+	font-size: 18px;
+	/* line-height: 33px; */
+}
+ul, ol, dl,
+table {
+	line-height: 33px;
+}
+.back {
+	width: 920px;
+}
+header .back {
+	height: 85px;
+}
+
+.homepage .back {
+	width: 1125px;
+}
+
+/*首頁跑馬燈*/
+.marquee span {
+	width: 80%;
+}
+.homepage .marquee span  {
+	font-size: 0.75rem;
+}
+/*首頁跑馬燈END*/
+/*首頁選單_我要XX*/
+.home_menu {
+	margin: 0;
+	text-align: justify;
+}
+.home_menu_item {
+	width: calc( (100% - 40px) / 5);
+	margin-bottom: 1rem;
+}
+
+/*首頁選單_我要XX END*/
+/* voting list */
+.mod_voting_list .month {
+	width: 850px;
+}
+.mod_voting_list .month > div {
+	width: calc(100% / 12);
+}
+.mod_voting_list .vote_list .data {
+	width: calc(100% / 3);
+}
+/* ########## tmpl ########## */
+.homepage .contentarea {
+	padding: 0;
+}
+.category-content .nodata {
+	font-size: 60px;
+	line-height: 400px;
+}
+/*  -- issues --  */
+.issues .issue:nth-child(3n+1) {
+	clear: both;
+}
+.issue .title {
+	height: 50px;
+}
+.issue .img {
+	height: 160px;
+}
+.issue .img img {
+}
+.issue .description {
+	height: 90px;
+}
+/*  -- survey_verify --  */
+.survey_verify input[type="button"].media-button,
+.survey_verify input[type="button"].safari-button {
+	padding: 0.3rem 3.25rem;
+	margin: 0 5px;
+}
+/* -- survey_question -- */
+.survey_question .info .intro > a {
+	height: 190px;
+}
+.survey_question .question > div {
+	width: calc(100%/3);
+}
+.survey_question .question > div:nth-child(3n+1) {
+	clear: both;
+}
+/* -- survey_finish -- */
+.survey_finish .item-list input[type="text"] {
+	width: 90%;
+}
+.survey_finish .finish {
+	font-size: 24px;
+	line-height: 40px;
+}
+.survey_finish .btns a.submit,
+.survey_finish .btns input[type="submit"],
+.survey_finish .btns a.btn {
+	width: 198px;
+	padding: 0.3rem 0;
+}
+
+/* -- survey_result -- */
+.survey_result .result_desc {
+	width: 80%;
+}
+/* ########## formtable ########## */
+table.formtable {
+	font-size: 22px;
+	line-height: 40px;
+}
+table.formtable th {
+	width: 40%;
+}
+table.formtable input[type="text"] {
+	width: 65%;
+}
+/* ########## footer ########## */
+.homepage footer {
+	bottom: 0;
+}
+.foot_content > div {
+	width: 50%;
+}
+
+.foot_right > div {
+	display: table-cell;
+	vertical-align: top;
+}
+.foot_right .ssl {
+	width: 115px;
+	padding: 40px 0 0 5px;
+}
+/* ########## others ########## */
+.rwd_copy_email,
+.rwd_refresh_captcha {
+	display: none;
+}
+.refresh_captcha {
+	line-height: 55px;
+}
+/* ########## survey_imgcat ########## */
+.fl-l {
+	float: left;
+}
+.d-ib {
+	display: inline-block;
+}
+.ps-a {
+	position: absolute;
+}
+
+
+/*RWD table*/
+.option_label {
+	display: inline-block;
+	width: 100%;
+	line-height: 110px;
+}
+
+/*2018 資訊內頁版面更新*/
+.completed .flow::after {
+	font-size: 1rem;
+	width: 1.75rem;
+	height: 1.75rem;
+	line-height: 1.5;
+	top: calc( 50% - 14px);
+	right: -20px;
+}
+.flow {
+	text-indent: -0.5rem;
+}
+.completed .flow {
+	border: 5px solid #e0e0e0;
+}
+.processing .flow {
+	border: 6px solid #4f77d0;
+}
+.uncompleted .flow {
+	border: 6px solid #e0e0e0;
+}
+
+	/*上方選單*/
+#flows > li {
+	font-size: 1.125rem;
+}
+#flows > li:first-child {
+	background-position: 81px 0;
+}
+#flows > li + li {
+	margin-left: -5px;
+	background-position: 81px 0;
+}
+#flows > li:last-child {
+	background-position: -81px 0;
+}
+#flows .flow  {
+	width: 74px;
+	height: 74px;
+	line-height: 74px;
+	font-size: 3rem;
+}
+	/*下方區塊*/
+.section-block h3 {
+	width: calc(100% + 4.25rem) !important;
+	/* width: calc(100% + 4.55rem) !important; */
+}
+.section-block h3 .flow {
+	width: 6.69rem;
+	height: 6.69rem;
+	font-size: 5rem;
+	border-width: 6px;
+	line-height: 1.3;
+}
+.section-block h3 .flow::after {
+	width: 2.125rem;
+	height: 2.125rem;
+	line-height: 1.25;
+	font-size: 1.5rem;
+}
+/*主圖*/
+.main-figure {
+	width: 80%;
+	border-radius: 55px;
+}
+.main-img {
+	border-radius: 55px;
+}
+.main-finalized {
+	width: 215px;
+	height: 195px;
+	top: -12px;
+	left: -12px;
+}
+/*簡介*/
+.layout-article .intro .subject,
+.view-article .intro .subject,
+.view-intro .intro .subject,
+.view-detail .intro .subject,
+.view-inquire .inquire .subject {
+	font-size: 3.125rem;
+}
+.layout-article .intro img,
+.view-intro .intro img {
+	width: auto;
+}
+.download img {
+	width: calc( (100% - 5px) / 2);
+}
+/*六階段區塊*/
+	/*共用設定*/
+.section-block:last-child {
+	border-left: 0;
+}
+/* .section-block .desc {
+	margin-top: 8rem;
+} */
+.section-block .desc span,
+.inquire .desc span {
+	display: inline-block;
+	vertical-align: top;
+}
+	/*細項詳細說明*/
+/* .section-block .desc {
+	margin-top: 120px;
+} *//*如有破版就解除本行註釋*/
+.section-block .detail,
+.inquire .detail {
+	padding: 0.598em 0;
+}
+.section-block .detail {
+	width: calc(100% - 173px - 2.8rem);
+}
+.inquire .detail {
+	width: calc(100% - 187px - 16px);
+}
+.completed-block .detail {
+	border-bottom: 1px solid #e0e0e0;
+}
+.processing-block .detail {
+	border-bottom: 1px solid #88acf8;
+}
+
+/*列表頁*/
+.table.general-table {
+	border-top: 4px groove #ffffff;
+	border-bottom: 1px solid #E6E6E6;
+}
+.table.general-table .td:nth-child(1) {
+	width: calc(100% - 110px - 168px);
+	padding: 8px 5px 8px 1rem;
+}
+.table.general-table .td:nth-child(2) {
+	width: 110px;
+}
+.table.general-table .td:nth-child(3) {
+	width: 168px;
+}
+.table.general-table .td .td-content {
+	display: block;
+	border-left: 1px solid #FFFFFF;
+}
+.table.general-table .tr:hover .td {
+	background-color: #5B8EE8;
+}
+.table.general-table .tr:hover a, .tr:hover span {
+	color: #FFFFFF;
+}
+.table.general-table .tr:hover .td-content {
+	border-left: 1px solid #88ACF8;
+}
+/*列表頁 END*/
+.input_text[type="text"] {
+	width: 97%;
+	max-width: 400px;
+}
+
+header.page-header-nav .mod .banner {
+	width: 350px !important;
+}
+header.page-header-nav .mod .banner .inner .ivoting-logo {
+	width: 350px !important;
+	left: -5px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,640 @@
+@charset "UTF-8";
+body {
+	font-size: 18px;
+	line-height: 33px;
+}
+.back {
+	width: 96%;
+}
+header {
+	height: auto;
+}
+header.page-header-nav .mod .banner .inner a {
+	width: 100% !important;
+}
+/*header.page-header-nav .mod .banner .inner .ivoting-logo {
+	left: -65px !important;
+}*/
+footer {
+	padding: 1rem 5%;
+	box-sizing: border-box;
+	font-size: 12px;
+}
+
+.foot_content > div {
+	width: 50%;
+}
+.foot_main {
+	padding-left: 6px;
+}
+footer .nav li::after {
+	padding: 0 5px;
+}
+.mod_search input[type="text"] {
+	width: 125px;
+	font-size: 14px;
+}
+.join_img {
+	width: 134px;
+}
+.custom_switch img {
+	width: 83%;
+}
+.header-mainmenu .mod_search {
+	width: 206px;
+}
+form.gsc-search-box {
+	width: 90% !important;
+	margin-right: auto !important;
+	margin-left: auto !important;
+}
+.home_top_btns {
+	width: 425px;
+}
+/*首頁文字說明*/
+.ivoting_intro {
+	width: 96%;
+	font-size: 14px;
+	padding: 0.5rem 1.5rem 0.5rem 70px;
+}
+.ivoting_intro::before {
+	left: 10px;
+}
+/*首頁文字說明END*/
+/*首頁跑馬燈END*/
+/*首頁選單_我要XX*/
+.home_menu {
+	/* margin: 55px 0 0; */
+}
+.home_menu_item {
+	width: calc((100% - 10px) / 2);
+	/*margin-bottom: 1rem;*/
+	margin-bottom: 2rem;
+	margin-top: 2rem;
+}
+.home_menu_item_a {
+	font-size: 1.25rem;
+}
+.home_menu_item_a::before {
+	/* background-size: 55%; */
+}
+.home_menu_item_a:hover::after {
+	border-top: 2vw solid #FFFFFF;
+}
+.go_voting::before {
+	background-size: 39%;
+}
+/*首頁選單_我要XX END*/
+/* ########## home modules ########## */
+/* voting list */
+.mod_voting_list .month {
+	padding: 0 50px;
+}
+.mod_voting_list .month > div {
+	width: calc(100% / 6);
+}
+.mod_voting_list .vote_list .data {
+	width: 50%;
+}
+/* ########## tmpl ########## */
+.homepage .contentarea {
+	/* min-height: 630px; */
+	padding: 0 0 30px;
+}
+.contentarea {
+    /* padding: 0 0 250px; */
+}
+.homepage #main {
+	padding: 0;
+}
+/*tmpl mod_page_title*/
+.marquee {
+	right: 45%;
+	box-shadow: none;
+}
+.marquee span {
+	width: 45%;
+	font-size: 1.5rem;
+}
+/*tmpl mod_page_title END*/
+/* ########## breadcrumb ########## */
+.breadcrumb {
+	/* padding-right: 40px; */
+}
+/* ########## com_surveyforce ########## */
+.menu-list a {
+	padding: 15px 5px;
+	line-height: 35px;
+}
+.menu-list a .image img {
+	width: 35px;
+}
+.menu-list a .title {
+	font-size: 24px;
+	font-weight: bold;
+}
+.menu-list a .num {
+	font-size: 14px;
+	display: block;
+}
+.category-content .nodata {
+	font-size: 40px;
+	line-height: 400px;
+}
+/*  -- issues --  */
+.issue {
+	float: left;
+	width: 50%;
+}
+.issues .issue:nth-child(odd) {
+	clear: both;
+}
+.issue .title {
+	height: 50px;
+}
+.issue .img {
+	height: 180px;
+}
+/*  -- survey --  */
+.survey .title {
+	font-size: 38px;
+	line-height: 60px;
+}
+.survey .desc,
+.survey .other_desc {
+	font-size: 20px;
+	line-height: 35px;
+}
+#siimage {
+	float: none;
+}
+.survey_verify input[type="button"].media-button,
+.survey_verify input[type="button"].safari-button {
+	display: block;
+	margin: 0;
+	padding: 0 10px;
+	font-size: 25px;
+	line-height: 45px;
+}
+/* -- survey_statement -- */
+.agree_statement {
+	font-size: 20px;
+	line-height: 30px;
+}
+.agree_statement input[type="checkbox"] {
+	width: 20px;
+	height: 20px;
+}
+.statement_area {
+	font-size: 16px;
+	line-height: 30px;
+}
+/* -- survey_question -- */
+.survey_question .welcome,
+.survey_question .header {
+	font-size: 22px;
+	line-height: 35px;
+}
+.survey_question .header {
+	font-size: 24px;
+}
+.survey_question .info .intro > a {
+	height: 200px;
+}
+.survey_question .question > div {
+	width: 50%;
+}
+.survey_question .question > div:nth-child(odd) {
+	clear: both;
+}
+/* -- survey_finish -- */
+.survey_finish .item-list input[type="text"] {
+	width: 90%;
+}
+.survey_finish .finish {
+	font-size: 20px;
+	line-height: 35px;
+}
+.survey_finish .btns a.submit,
+.survey_finish .btns input[type="submit"],
+.survey_finish .btns a.btn {
+	width: 190px;
+	padding: 0;
+}
+/* -- survey_result -- */
+.survey_result .quest_title,
+.survey_result .ftitle {
+	font-size: 20px;
+	line-height: 35px;
+}
+.votetable th, .votetable td {
+	font-size: 20px;
+}
+.survey_result .result_desc {
+	width: 80%;
+}
+/* ########## formtable ########## */
+table.formtable {
+	font-size: 20px;
+	line-height: 35px;
+}
+table.formtable th {
+	width: 35%;
+}
+table.formtable input[type="text"] {
+	width: 75%;
+}
+/* ########## others ########## */
+.btns a.submit,
+.btns input[type="submit"],
+.btns a.btn {
+	font-size: 25px;
+	line-height: 45px;
+}
+#social_tools a.standard {
+	display: none;
+}
+.input_text[type="text"] {
+	max-width: 350px;
+}
+/* ########################## image caption 上稿用，內容同陽管 ##########################*/
+.caption_wrapper {
+	float: none;
+	margin: 0 auto;
+}
+.caption_wrapper_td_small {
+	width: 31%;
+	margin: 1%;
+}
+.caption_wrapper_td_small:nth-child(3n+1) {
+	clear: both;
+}
+.caption_wrapper_td_medium {
+	width: 48%;
+	margin: 1%;
+}
+.caption_wrapper_td_medium:nth-child(2n+1) {
+	clear: both;
+}
+.caption_wrapper_td_large {
+	width: 98%;
+	margin: 1%;
+	clear: both;
+}
+.flowbtn {
+	font-size: 24px;
+	width: 226px;
+	margin: 80px 30px;
+}
+
+/*練習區*/
+body.informal .contentarea {
+	min-height: 760px;
+}
+body.informal .logo_img {
+	width: 150px;
+}
+body.informal .back-home::after {
+	font-size: 50px;
+}
+/*臺北市政府網路投票作業流程圖*/
+/* #flowchart:checked ~ .flowchart {
+	height: auto;
+} */
+/*非公開投票*/
+.layout1 .survey .survey_banner {
+	text-align: center;
+}
+.layout1 .survey .survey_banner::before {
+	width: 25%;
+	height: 35%;
+	background-size: contain;
+}
+.layout1 .survey .survey_banner img {
+	margin-right: 0;
+}
+.layout2 .survey .survey_banner {
+	padding-bottom: 15vw;
+}
+.layout2 .survey .survey_banner::before {
+	width: 100%;
+	height: 22vw;
+	background-size: cover;
+}
+
+/*RWD table*/
+.rwd-table {
+	width: 98%;
+}
+.rwd-table thead th {
+	display: none;
+}
+
+.rwd-table tbody th,
+.rwd-table td {
+	display: block;
+	border: 0 !important;
+	text-align: left !important;
+}
+.rwd-table tbody th {
+	font-weight: bold;
+	background-color: #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.rwd-table th,
+.rwd-table td {
+	padding: 0 0.8em !important;
+}
+.rwd-table td .option_label {
+	width: auto;
+}
+.rwd-table td .option_label::after {
+	content: attr(data-th);
+	text-align: left;
+	width: calc(100% - 1.2em);
+	display: inline-block;
+	vertical-align: top;
+}
+
+/*imagecat*/
+.cat_tabs {
+	margin: 1em 0;
+}
+.cat_info {
+	display: table;
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+.survey_question .cat_question .option {
+	width: calc(( 100% - 1em) / 2);
+}
+.survey_question .info .stamp.fl-l,
+.survey_question .info .intro.fl-l {
+	float: left;
+}
+.survey_question .info .stamp.fl-l {
+	width: 25px;
+	height: 61px;
+	margin: 0 3px;
+	background-size: contain;
+	border-bottom: 0;
+}
+.cat_question .info .intro {
+	width: calc( 100% - 35px);
+	height: 61px;
+	padding: 0;
+	text-align: left;
+	overflow: hidden;
+}
+.survey_question .info .intro > a {
+	margin-bottom: 0;
+	display: inline;
+}
+/* .cat_question .info .intro > .cat_img img {
+	width: 68px;
+}
+.cat_question .info .intro > .cat_zoom {
+	bottom: 0;
+	left: 72px;
+} */
+
+/* com_surveyforce/question */
+.select_option select {
+	width: 80%;
+}
+
+.rwd-block {
+	display: block;
+}
+.label_cell {
+	text-align: left;
+}
+.option_cell {
+	padding-bottom: 1em;
+}
+.custom-combobox {
+	width: 77.5%;
+	min-width: 150px;
+}
+
+
+
+/*2018 資訊內頁版面更新*/
+	/*上方選單*/
+#flows {
+	padding: 0 5px;
+}
+#flows > li {
+	font-size: 2vw;
+}
+@media only screen and (min-width: 850px) {
+	#flows > li  {
+		font-size: 1.125rem;
+	}
+}
+#flows .flow {
+	width: 7vw;
+	height: 7vw;
+	line-height: 1.5;
+	font-size: 4.5vw;
+}
+#flows > li+li::before {
+	width: 15.5vw;
+	height: 7.5vw;
+	top: calc( 50% - 4.1vw);
+	right: 5vw;
+}
+	/*下方區塊*/
+
+.section-block h3 .flow {
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	font-size: 52px;
+	border-width: 6px;
+}
+.section-block h3 .flow::after {
+	width: 24px;
+	height: 24px;
+	line-height: 24px;
+	top: 24px;
+	right: -15px;
+}
+.section-block h3::after {
+	right: 20px;
+}
+/*主圖*/
+.main-finalized {
+	width: 24.68vw;
+	height: 22.34vw;
+	top: -1.4vw;
+	left: -1.4vw;
+}
+@media only screen and (min-width: 800px) {
+	.main-finalized {
+		top: -1.8vw;
+		left: -1.8vw;
+	}
+}
+.page-info {
+	/* padding-right: 50px; */
+}
+/*簡介*/
+.layout-article .intro .subject,
+.view-article .intro .subject,
+.view-intro .intro .subject,
+.view-inquire .inquire .subject {
+	font-size: 4.5vw;
+}
+.download img {
+	width: calc( (100% - 5px) / 2);
+}
+/*六階段區塊*/
+	/*共用設定*/
+.section-block {
+	margin-left: 2.5rem;
+}
+.section-block:last-child {
+	border-left: 0;
+}
+.section-block h3 {
+	font-size: 2.5rem;
+	left: -3.25rem;
+	width: calc(100% + 3.25rem) !important;
+}
+.back-to-top {
+	margin: 5px 20px;
+}
+.section-block .desc {
+	margin-top: 5rem;
+}
+.section-block .desc .heading,
+.inquire .heading {
+	font-size: 1rem;
+}
+
+	/*細項詳細說明*/
+.section-block .detail {
+	padding: 0 1rem;
+}
+
+/*最新消息列表頁*/
+	/*篩選表單*/
+.news_button {
+	padding: 0px 1.5rem;
+}
+.thead {
+	display: none;
+}
+.tr {
+	display: block;
+	border-top: 2px solid #E6F1FC;
+	border-bottom: 2px solid #E6F1FC;
+	margin-bottom: 8px;
+	padding: 0;
+}
+
+.td:nth-child(2n) {
+	background-color: #FFFFFF;
+}
+.td:nth-child(2n+1) {
+	background-color: #E6F1FC;
+}
+.td {
+	display: table;
+	width: 100%;
+	min-height: 45px;
+	overflow: hidden;
+	padding: 0;
+	margin: 2px 0;
+	word-wrap: break-word;
+	word-break: break-all;
+}
+.td::before {
+	content: attr(data-th) "";
+	display: table-cell;
+	width: 4.7rem;
+	padding: 0 10px;
+	text-align: right;
+	vertical-align: middle;
+	background-color: #DBDBDB;
+	color: #666666;
+}
+.td a, .td span {
+	width: calc(100% - 5rem);
+	text-align: left;
+	vertical-align: middle;
+	display: table-cell;
+	padding: 0 7px;
+}
+.tr:hover, .tr:focus, .tr:active {
+	border-top: 2px solid #9FC3F7;
+	border-bottom: 2px solid #9FC3F7;
+}
+.tr:hover .td, .tr:focus .td, .tr:active .td,
+.tr:hover .td a, .tr:focus .td a, .tr:active .td a {
+	background-color: #5B8EE8;
+	color: #FFFFFF;
+}
+.tr:hover .td::before, .tr:focus .td::before, .tr:active .td::before {
+	background-color: #BBDAFF;
+	color: #2951A6;
+}
+
+/* .td:nth-child(2) {
+	width: 15vw;
+}
+.td:last-child {
+	width: 28vw;
+} */
+/*最新消息列表頁 END*/
+
+/*我要XX列表頁*/
+
+.list-item {
+	padding: 0 0 20px 0;
+}
+.status, .note {
+	text-align: center;
+	padding: 15px;
+}
+.status {
+	border-right: 1px solid #c7d8ff;
+}
+.countdown {
+	display: block;
+}
+.countdown-text {
+	display: block;
+}
+.topic-of-discussion {
+	border-top: 1px solid #c7d8ff;
+	padding: 15px 15px 0 15px;
+}
+/*我要XX列表頁 END*/
+
+/*篩選表單*/
+.list_search {
+	padding-right: 40px;
+}
+/*篩選表單 END*/
+
+/* 認識我們單元頁 */
+.column {
+	width: 50%;
+}
+
+/* 投票記錄頁 */
+.inquire .desc li:first-of-type .detail {
+	border-top: 0;
+}
+.inquire .desc .detail {
+	border-bottom: 0;
+}
+.inquire .desc li:not(.topic):not(.options) .detail {
+	padding: 0 20px 0.598em;
+}
+.inquire .options .detail li:first-of-type {
+	border-top: 1px solid #4F77D0;
+}
